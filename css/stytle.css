@@ -1,0 +1,104 @@
+.nav-link{
+    font-size: 11px;
+    color:black;
+    font-weight: 700;
+}
+#nav-link{
+    font-size: 12px;
+    color:black;
+    font-weight: 700;
+}
+@-webkit-keyframes zoomIn {
+    from {
+      opacity: 0;
+      -webkit-transform: scale3d(0.3, 0.3, 0.3);
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+  
+    50% {
+      opacity: 1;
+    }
+}
+@-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+#banner{
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+
+#water:hover{
+    animation-name: zoomIn;
+    animation-duration: 1s;
+}
+
+#active{
+    color:brown;
+}
+.nav-link:hover{
+    color:brown;
+}
+.para{
+    text-decoration: underline;
+    font-family: cursive;
+}
+#social-media{
+    font-size:14px;
+    background-color: blue;
+}
+#social-media:hover   {
+    font-size: 17px;
+    background-color: blue;
+}
+#donate{
+    font-size: 12px;
+    font-weight: 500;
+}
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+}
+#btnBanner{
+    background-color: yellow;
+    color:black
+}
+#btnBanner:hover{
+    background-color: brown;
+    color:white
+}
+
+#logo{
+    height: 60px;
+}
+#konwMore{
+    font-size: small;
+    text-decoration: underline;
+}
+
+
+#volunteer{
+  border-style: dashed;
+  border-left: 0px;
+  border-bottom: 0px;
+  border-top: 0px;
+  border-color:aquamarine; 
+}
+
+@media(max-width:770px) {
+    #bannerImg{
+        width:500px;
+    }
+    #volunteer{
+        border-color: white;    
+    }
+    
+}
